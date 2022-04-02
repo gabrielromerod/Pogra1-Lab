@@ -35,3 +35,15 @@ s = int(input("ingresa longitud de lados: "))
 n = int(input("numero de lados: "))
 area = (n*(s**2)) / (4*tan(pi/n))
 print(area)
+
+#Ejercicio 1 - S2
+kW_consume = float(input("Introduce el consumo de kW: "))
+if kW_consume > 100:
+    kW_consume_extra = kW_consume - 100
+    final_cost = (kW_consume_extra * 0.7) + 45.22
+    print("El consumo de electricidad en soles es de: " + str(final_cost))
+else:
+    final_cost = kW_consume * 0.4522
+    print("El consumo de electricidad en soles es de: " + str(final_cost))
+
+#Ejercicio 1 - S2
