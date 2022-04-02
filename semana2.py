@@ -12,3 +12,7 @@ x1 = int(input("ingresa x1: "))
 y1 = int(input("ingrsae y1: "))
 distancia = math.sqrt(((x2-x1)**2) + ((y2-y1)**2))
 print("la distancia es: "+str(distancia))
+
+#Ejercicio 3
+num = input("Ingrese un número: ")
+print("número invertido " + num[2] +  num[1]  + num[0])
