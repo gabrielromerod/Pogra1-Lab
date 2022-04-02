@@ -54,3 +54,6 @@ else:
     print("El consumo de electricidad en soles es de: " + str(final_cost))
 
 #Ejercicio 2 - S2
+num = int(input("numero: "))
+not(num % 2) and (print("es par"))
+(num % 2) and (print("es impar"))
