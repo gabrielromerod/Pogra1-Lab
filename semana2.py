@@ -57,3 +57,10 @@ else:
 num = int(input("numero: "))
 not(num % 2) and (print("es par"))
 (num % 2) and (print("es impar"))
+
+#Ejercicio 3 - S2
+s1 = int(input("s1: "))
+s2 = int(input("s1: "))
+s3 = int(input("s2: "))
+((s1+s2 > s3) and (s2+s3>s1) and (s1+s3>s2)) and print("ES TRIANGULO VALIDO")
+not((s1+s2 > s3) and (s2+s3>s1) and (s1+s3>s2)) and print("NO ES TRIANGULO VALIDO")
