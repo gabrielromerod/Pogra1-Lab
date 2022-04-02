@@ -64,3 +64,14 @@ s2 = int(input("s1: "))
 s3 = int(input("s2: "))
 ((s1+s2 > s3) and (s2+s3>s1) and (s1+s3>s2)) and print("ES TRIANGULO VALIDO")
 not((s1+s2 > s3) and (s2+s3>s1) and (s1+s3>s2)) and print("NO ES TRIANGULO VALIDO")
+
+#Ejercicio 4 - S2
+monto = int(input("consumo: "))
+montotot = monto + 0.05*monto + 0.18*monto
+print("monto a pagar "+str(montotot))
+
+#Ejercicio 5 -S2
+bothasta1l = int(input("numero de botellas de hasta un litro: "))
+botmas1l = int(input("numero de botellas de mas de un litro: "))
+montotot =  bothasta1l*1.25 + botmas1l*3.75
+print("el monto a favor es: "+ str(montotot))
