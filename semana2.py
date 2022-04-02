@@ -84,3 +84,19 @@ number_2 = number[2]
 number_3 = number[3]
 result = int(number_0) + int(number_1) + int(number_2) + int(number_3)
 print(str(number_0) + "+" + str(number_1) + "+" + str(number_2) + "+" + str(number_3)+"= " + str(result))
+
+#Ejercicio 7 - S2
+n1 = int(input("numero 1:"))
+n2 = int(input("numero 2:"))
+n3 = int(input("numero 3:"))
+maximo = max(n1,n2,n3)
+minimo = min(n1,n2,n3)
+intermedio = n1+n2+n3-maximo-minimo
+print(minimo, intermedio,  maximo)
+
+#Ejercicio 7 - S2 - Alternativa
+number_1 = int(input("Introduce el número 1: "))
+number_2 = int(input("Introduce el número 2: "))
+number_3 = int(input("Introduce el número 3: "))
+numbers = (number_1, number_2, number_3)
+print(sorted(numbers))
