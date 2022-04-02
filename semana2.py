@@ -70,8 +70,17 @@ monto = int(input("consumo: "))
 montotot = monto + 0.05*monto + 0.18*monto
 print("monto a pagar "+str(montotot))
 
-#Ejercicio 5 -S2
+#Ejercicio 5 - S2
 bothasta1l = int(input("numero de botellas de hasta un litro: "))
 botmas1l = int(input("numero de botellas de mas de un litro: "))
 montotot =  bothasta1l*1.25 + botmas1l*3.75
 print("el monto a favor es: "+ str(montotot))
+
+#Ejercicio 6 - S2
+number = input("Introduce el número de 4 digitos: ")
+number_0 = number[0]
+number_1 = number[1]
+number_2 = number[2]
+number_3 = number[3]
+result = int(number_0) + int(number_1) + int(number_2) + int(number_3)
+print(str(number_0) + "+" + str(number_1) + "+" + str(number_2) + "+" + str(number_3)+"= " + str(result))
