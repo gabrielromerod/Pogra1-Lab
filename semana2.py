@@ -16,3 +16,12 @@ print("la distancia es: "+str(distancia))
 #Ejercicio 3
 num = input("Ingrese un número: ")
 print("número invertido " + num[2] +  num[1]  + num[0])
+
+#Ejercicio 4
+segundos = int(input("Ingrese la cantidad de segundos: "))
+seg = segundos % 60
+min = segundos // 60
+hor = min // 60
+print(seg)
+print(min-(hor*60))
+print(hor)
