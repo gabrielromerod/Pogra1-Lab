@@ -35,8 +35,15 @@ s = int(input("ingresa longitud de lados: "))
 n = int(input("numero de lados: "))
 area = (n*(s**2)) / (4*tan(pi/n))
 print(area)
+    
+#Ejercicio 1 - S2 - Metodo 1
+consumo = int(input("kw : "))
 
-#Ejercicio 1 - S2
+(consumo <= 100) and (print("el monto a pagar es " + str(consumo*0.4522)))
+
+(consumo > 100) and (print("el monto a pagar es " + str(100*0.4522 + ((consumo-100)*0.7))))
+
+#Ejercicio 1 - S2 - Alternativa
 kW_consume = float(input("Introduce el consumo de kW: "))
 if kW_consume > 100:
     kW_consume_extra = kW_consume - 100
@@ -46,4 +53,4 @@ else:
     final_cost = kW_consume * 0.4522
     print("El consumo de electricidad en soles es de: " + str(final_cost))
 
-#Ejercicio 1 - S2
+#Ejercicio 2 - S2
