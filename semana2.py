@@ -28,3 +28,10 @@ print(min-(hor*60))
 print(hor-(24*dia))
 print(dia)
 print("Equivale a: " + str(dia) + ":" + str(hor-(24*dia)) + ":" + str(min-(hor*60)) + ":" + str(seg))
+
+#Ejercicio 5
+from math import tan, pi
+s = int(input("ingresa longitud de lados: "))
+n = int(input("numero de lados: "))
+area = (n*(s**2)) / (4*tan(pi/n))
+print(area)
