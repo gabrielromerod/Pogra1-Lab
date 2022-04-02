@@ -22,6 +22,9 @@ segundos = int(input("Ingrese la cantidad de segundos: "))
 seg = segundos % 60
 min = segundos // 60
 hor = min // 60
+dia = hor // 24
 print(seg)
 print(min-(hor*60))
-print(hor)
+print(hor-(24*dia))
+print(dia)
+print("Equivale a: " + str(dia) + ":" + str(hor-(24*dia)) + ":" + str(min-(hor*60)) + ":" + str(seg))
