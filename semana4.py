@@ -46,3 +46,26 @@ def ejercicio_7():
     else:
         print("El número no es perfecto")
 
+
+# Ejercicio 8: Una veterinaria le ha solicitado crear un programa para calcular la edad aproximada humana de 
+# sus pacientes caninos. El programa que usted realizará solicita un número N que indica cuántos 
+# pacientes se atenderán.
+
+def ejercicio_8():
+    cant = int(input("Ingresar número de pacientes: "))
+    i = 0
+    while i < cant:
+        nombre = input("Ingresa nombre: ")
+        edad = int(input("Ingresa edad: "))
+        while True:
+            if edad >= 1:
+                break
+            else:
+                edad = int(input("Ingresa edad: "))
+    if edad > 2:
+        edad = 2*10.5 + (edad-2)*4
+    else:
+        edad = edad*10.5
+
+    print("La edad de" + nombre+" es "+str(edad))
+    i = i+1
