@@ -10,7 +10,6 @@ caracteres_hechos = n - 1
 caracteres_hechos_impresos = 1
 while lineas_hechas < total_lineas:
     numeros = ""
-    ceros = ""
     for ni in range(caracteres_hechos_impresos, 0, -1):
             numeros += str(ni)
     print("0" * caracteres_hechos, end="" + str(numeros) +"\n")
